@@ -1,14 +1,3 @@
-# To run
+NB this application doesn't actually do anything with DBT - for that see dagster_dbt_sql_server.
 
-```
-cd /Users/richardkirk/SourceCode/dagster-rk-dbt
-source /Users/richardkirk/.local/share/virtualenvs/dagster-rk-dbt-h_b2fRGs/bin/activate 
-dagster dev -f dagster_rk_dbt_app/definitions.py
-```
-
-
-Open URL to local dagster webservice:
-http://127.0.0.1:3000/
-
-Go to Deployment tab then click "Reload Definitions" - hopefully should see this app appear.
-
+But it does connect to SQL Server instance running on container on MAC and do an insert.
